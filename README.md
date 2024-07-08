@@ -12,7 +12,7 @@
 
 ## bash
 - git clone https://github.com/milad7akbari/mysqltoclickhouse.git
-- cd mysqltoclickhouse
+- cd mysql-to-clickhouse-main
 - pip install -r requirements.txt
 
 ## Usage Instructions
