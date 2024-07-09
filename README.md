@@ -1,6 +1,6 @@
 # MySQL to ClickHouse
 
-**mysqltoclickhouse** is a tool to seamlessly convert MySQL database structures to ClickHouse.
+**MySQL to ClickHouse** is a tool to seamlessly convert MySQL database structures to ClickHouse.
 
 ## Features
 - Convert MySQL table schemas to ClickHouse.
