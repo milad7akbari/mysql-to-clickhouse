@@ -1,6 +1,6 @@
 # MySQL to ClickHouse
 
-**mysqltoclickhouse** is a tool to seamlessly convert MySQL database structures to ClickHouse.
+**MySQL to ClickHouse** is a tool to seamlessly convert MySQL database structures to ClickHouse.
 
 ## Features
 - Convert MySQL table schemas to ClickHouse.
@@ -12,7 +12,7 @@
 
 ## bash
 - git clone https://github.com/milad7akbari/mysqltoclickhouse.git
-- cd mysqltoclickhouse
+- cd mysql-to-clickhouse-main
 - pip install -r requirements.txt
 
 ## Usage Instructions
