@@ -74,7 +74,7 @@ class SQLFileProcessor:
             self.order_by.append(match.group(1))
         elif match := re.match(r'.*INDEX.*\`(.*)\`\s.*', line, re.DOTALL):
             self.order_by.append(match.group(1))
-        if match := re.match(r'^\)\sENGINE\s', line, re.DOTALL):
+        if match := re.match(r'^\)\sENGINE', line, re.DOTALL):
             self.finalize_create_table()
 
     def process_field(self, groups):
